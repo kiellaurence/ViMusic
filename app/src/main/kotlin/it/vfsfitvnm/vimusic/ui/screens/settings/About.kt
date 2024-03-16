@@ -37,9 +37,9 @@ fun About() {
                     .asPaddingValues()
             )
     ) {
-        Header(title = "About") {
+        Header(title = "About Owner") {
             BasicText(
-                text = "v${BuildConfig.VERSION_NAME} by vfsfitvnm",
+                text = "v${BuildConfig.VERSION_NAME} by hwdwsky",
                 style = typography.s.secondary
             )
         }
@@ -50,7 +50,7 @@ fun About() {
             title = "GitHub",
             text = "View the source code",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic")
+                uriHandler.openUri("https://github.com/kiellaurence/ViMusic")
             }
         )
 
